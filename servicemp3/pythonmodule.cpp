@@ -19,7 +19,7 @@ static struct PyModuleDef moduledef = {
 };
 
 PyMODINIT_FUNC
-initservicemp3(void)
+PyInit_servicemp3(void)
 {
 	return PyModule_Create(&moduledef);
 }
