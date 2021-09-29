@@ -11,11 +11,7 @@ static struct PyModuleDef moduledef = {
 		"servicemp3",							/* m_name */
 		"Module that implements gstreamer.",				/* m_doc */
 		-1,								/* m_size */
-		servicemp3Methods,						/* m_methods */
-		NULL,								/* m_reload */
-		NULL,								/* m_traverse */
-		NULL,								/* m_clear */
-		NULL,								/* m_free */
+		servicemp3Methods						/* m_methods */
 };
 
 PyMODINIT_FUNC PyInit_servicemp3(void)
