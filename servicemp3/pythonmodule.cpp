@@ -1,7 +1,7 @@
 #include "servicemp3.h"
 
 
-static PyMethodDef servicemp3_methods[] =
+static PyMethodDef servicemp3Methods[] =
 {
 	{NULL, NULL, 0, NULL}
 };
@@ -11,7 +11,7 @@ static struct PyModuleDef moduledef = {
 		"servicemp3",							/* m_name */
 		"Module that implements gstreamer.",				/* m_doc */
 		-1,								/* m_size */
-		servicemp3_methods,						/* m_methods */
+		servicemp3Methods,						/* m_methods */
 		NULL,								/* m_reload */
 		NULL,								/* m_traverse */
 		NULL,								/* m_clear */
